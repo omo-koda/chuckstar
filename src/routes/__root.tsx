@@ -74,7 +74,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "The premier marketplace for Pokémon, Yu-Gi-Oh!, sports cards, and tabletop collectibles. Every item authenticated, every deal protected.",
       },
-      { property: "og:title", content: "Clicker Verse Collectibles" },
+      { property: "og:title", content: "Clicker Verse Collectibles — Trade Rare Cards With Confidence" },
       {
         property: "og:description",
         content: "Own the rarest. Trade with confidence. 50,000+ authenticated collectibles.",
@@ -83,6 +83,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:image", content: "/hero-bg.jpg" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:image", content: "/hero-bg.jpg" },
+      { name: "twitter:title", content: "Clicker Verse Collectibles — Trade Rare Cards With Confidence" },
+      { name: "description", content: "Morphing Reality creates dynamic, interactive web experiences with advanced animations and real-time hardware integration." },
+      { property: "og:description", content: "Morphing Reality creates dynamic, interactive web experiences with advanced animations and real-time hardware integration." },
+      { name: "twitter:description", content: "Morphing Reality creates dynamic, interactive web experiences with advanced animations and real-time hardware integration." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
